@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "OrderService.ClientHttp/1.0.0": {
+        "dependencies": {
+          "OrderService.Shared": "1.0.0"
+        },
+        "runtime": {
+          "OrderService.ClientHttp.dll": {}
+        }
+      },
+      "OrderService.Shared/1.0.0": {
+        "runtime": {
+          "OrderService.Shared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderService.ClientHttp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderService.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
