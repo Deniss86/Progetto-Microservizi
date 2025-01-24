@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using OrderService.Repository;
+using OrderService.Business.Abstraction;
 using OrderService.Shared.Models;
 
 namespace OrderService.Api.Controllers
@@ -8,30 +8,35 @@ namespace OrderService.Api.Controllers
     [ApiController]
     public class OrdersController : ControllerBase
     {
-        private readonly OrderDbContext _dbContext;
+        private readonly IOrderBusiness _orderBusiness;
 
-        public OrdersController(OrderDbContext dbContext)
+        public OrdersController(IOrderBusiness orderBusiness)
         {
-            _dbContext = dbContext;
+            _orderBusiness = orderBusiness;
         }
 
-        // POST: api/orders
         [HttpPost]
         public async Task<IActionResult> CreateOrder([FromBody] Order order)
         {
-            _dbContext.Orders.Add(order);
-            await _dbContext.SaveChangesAsync();
+            await _orderBusiness.CreateOrderAsync(order);
             return CreatedAtAction(nameof(GetOrder), new { id = order.Id }, order);
         }
 
-        // GET: api/orders/{id}
         [HttpGet("{id}")]
         public async Task<IActionResult> GetOrder(int id)
         {
-            var order = await _dbContext.Orders.FindAsync(id);
+            var order = await _orderBusiness.GetOrderAsync(id);
             if (order == null)
                 return NotFound();
+
             return Ok(order);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllOrders()
+        {
+            var orders = await _orderBusiness.GetAllOrdersAsync();
+            return Ok(orders);
         }
     }
 }

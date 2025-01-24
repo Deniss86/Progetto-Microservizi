@@ -15,3 +15,4 @@ D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderSer
 D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\refint\OrderService.Business.dll
 D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderService.Business.pdb
 D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\ref\OrderService.Business.dll
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderService.Business.sourcelink.json

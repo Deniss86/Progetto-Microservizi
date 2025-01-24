@@ -13,3 +13,4 @@ D:\Desktop\Progetto Microservizi\OrderService.ClientHttp\obj\Debug\net9.0\OrderS
 D:\Desktop\Progetto Microservizi\OrderService.ClientHttp\obj\Debug\net9.0\refint\OrderService.ClientHttp.dll
 D:\Desktop\Progetto Microservizi\OrderService.ClientHttp\obj\Debug\net9.0\OrderService.ClientHttp.pdb
 D:\Desktop\Progetto Microservizi\OrderService.ClientHttp\obj\Debug\net9.0\ref\OrderService.ClientHttp.dll
+D:\Desktop\Progetto Microservizi\OrderService.ClientHttp\obj\Debug\net9.0\OrderService.ClientHttp.sourcelink.json

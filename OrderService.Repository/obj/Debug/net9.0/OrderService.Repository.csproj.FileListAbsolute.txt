@@ -15,3 +15,4 @@ D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderS
 D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\ref\OrderService.Repository.dll
 D:\Desktop\Progetto Microservizi\OrderService.Repository\bin\Debug\net9.0\OrderService.Repository.runtimeconfig.json
 D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.genruntimeconfig.cache
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.sourcelink.json

@@ -94,10 +94,22 @@ dotnet add OrderService.Repository package Microsoft.EntityFrameworkCore.SqlServ
 dotnet add OrderService.Repository package Microsoft.EntityFrameworkCore.Design
 
 dotnet add OrderService.Repository reference OrderService.Shared/OrderService.Shared.csproj
-
+dotnet add package Microsoft.EntityFrameworkCore.Design
 
 cd OrderService.Repository
 dotnet tool install --global dotnet-ef
+in order service api
+dotnet add package Microsoft.AspNetCore.App
+dotnet add package Microsoft.EntityFrameworkCore
+
 dotnet ef migrations add InitialCreate --startup-project ../OrderService.Api
+
+dotnet add package Swashbuckle.AspNetCore
+ dotnet ef migrations add AddClientiEIndirizzi --project ../OrderService.Repository --startup-project .
+
+
+!Dentro ad orderservice : 
+dotnet ef database update --startup-project ../OrderService.Api
+- verifica connessione al db 
 
 

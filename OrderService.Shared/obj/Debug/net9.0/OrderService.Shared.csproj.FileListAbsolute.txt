@@ -9,3 +9,4 @@ D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\OrderServi
 D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\refint\OrderService.Shared.dll
 D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.pdb
 D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\ref\OrderService.Shared.dll
+D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.sourcelink.json

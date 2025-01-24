@@ -16,10 +16,10 @@ services:
   orderservice:
     build:
       context: .
-      dockerfile: OrderService.Api/Dockerfile # Dockerfile della tua applicazione
+      dockerfile: OrderService.Api/Dockerfile 
     container_name: orderservice
     ports:
-      - "5000:5000" # Esponi l'API sulla porta 5000
+      - "5000:5000" 
     environment:
       ConnectionStrings__OrderDb: "Server=sqlserver,1433;Database=OrderDb;User Id=sa;Password=YourPassword123!" # Stringa di connessione per il DB
     depends_on:
