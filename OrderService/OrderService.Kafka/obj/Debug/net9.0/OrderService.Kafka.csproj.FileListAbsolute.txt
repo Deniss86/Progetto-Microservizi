@@ -1,0 +1,13 @@
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\bin\Debug\net9.0\OrderService.Kafka.deps.json
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\bin\Debug\net9.0\OrderService.Kafka.dll
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\bin\Debug\net9.0\OrderService.Kafka.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\obj\Debug\net9.0\OrderService.Kafka.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\obj\Debug\net9.0\OrderService.Kafka.AssemblyInfoInputs.cache
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\obj\Debug\net9.0\OrderService.Kafka.AssemblyInfo.cs
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\obj\Debug\net9.0\OrderService.Kafka.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\obj\Debug\net9.0\OrderService.Kafka.sourcelink.json
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\obj\Debug\net9.0\OrderService.Kafka.dll
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\obj\Debug\net9.0\refint\OrderService.Kafka.dll
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\obj\Debug\net9.0\OrderService.Kafka.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\obj\Debug\net9.0\ref\OrderService.Kafka.dll
+D:\Desktop\Progetto Microservizi\OrderService.Kafka\obj\Debug\net9.0\OrderService.Kafka.csproj.AssemblyReference.cache

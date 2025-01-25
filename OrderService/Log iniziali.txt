@@ -1,0 +1,127 @@
+PS D:\Desktop\Progetto Microservizi> dotnet new sln -n OrderService
+>>
+
+Benvenuti a .NET 9.0
+---------------------
+Versione SDK: 9.0.102
+
+Telemetria
+---------
+Gli strumenti .NET consentono di raccogliere i dati sull'utilizzo consentendo a Microsoft di migliorare l'esperienza. I dati vengono raccolti da Microsoft e condivisi con la community. È possibile rifiutare esplicitamente la telemetria impostando la variabile di ambiente DOTNET_CLI_TELEMETRY_OPTOUT su '1' o 'true' nella shell preferita.
+
+Altre informazioni sulla telemetria degli strumenti dell'interfaccia della riga di comando di .NET: https://aka.ms/dotnet-cli-telemetry     
+
+----------------
+È stato installato un certificato di sviluppo HTTPS ASP.NET Core.
+Per considerare attendibile il certificato, eseguire 'dotnet dev-certs https --trust'
+Informazioni su HTTPS: https://aka.ms/dotnet-https
+----------------
+Scrivere la prima app: https://aka.ms/dotnet-hello-world
+Scoprire le novità: https://aka.ms/dotnet-whats-new
+Esplorare la documentazione: https://aka.ms/dotnet-docs
+Segnalare problemi e trovare l'origine in GitHub: https://github.com/dotnet/core
+Usare 'dotnet --help' per vedere i comandi disponibili o visitare: https://aka.ms/dotnet-cli
+--------------------------------------------------------------------------------------
+Creazione del modello "File di soluzione" completata.
+PS D:\Desktop\Progetto Microservizi> dotnet new webapi -n OrderService.Api
+>>
+Creazione del modello "API Web ASP.NET Core" completata.
+
+Elaborazione post-creazione delle azioni in corso...
+Ripristino di D:\Desktop\Progetto Microservizi\OrderService.Api\OrderService.Api.csproj:
+Il ripristino è riuscito.
+
+PS D:\Desktop\Progetto Microservizi> dotnet new classlib -n OrderService.Business
+>>
+Creazione del modello "Libreria di classi" completata.
+
+Elaborazione post-creazione delle azioni in corso...
+Ripristino di D:\Desktop\Progetto Microservizi\OrderService.Business\OrderService.Business.csproj:
+Il ripristino è riuscito.
+
+PS D:\Desktop\Progetto Microservizi> dotnet new classlib -n OrderService.ClientHttp
+>>
+Creazione del modello "Libreria di classi" completata.
+
+Elaborazione post-creazione delle azioni in corso...
+Ripristino di D:\Desktop\Progetto Microservizi\OrderService.ClientHttp\OrderService.ClientHttp.csproj:
+Il ripristino è riuscito.
+
+PS D:\Desktop\Progetto Microservizi> dotnet new classlib -n OrderService.Repository
+>>
+Creazione del modello "Libreria di classi" completata.
+
+Elaborazione post-creazione delle azioni in corso...
+Ripristino di D:\Desktop\Progetto Microservizi\OrderService.Repository\OrderService.Repository.csproj:
+Il ripristino è riuscito.
+
+
+PS D:\Desktop\Progetto Microservizi> dotnet new classlib -n OrderService.Shared
+>>
+Creazione del modello "Libreria di classi" completata.
+Elaborazione post-creazione delle azioni in corso...
+Ripristino di D:\Desktop\Progetto Microservizi\OrderService.Shared\OrderService.Shared.csproj:
+Il ripristino è riuscito.
+
+
+PS D:\Desktop\Progetto Microservizi> dotnet sln add OrderService.Api/OrderService.Api.csproj
+>> dotnet sln add OrderService.Business/OrderService.Business.csproj
+>> dotnet sln add OrderService.ClientHttp/OrderService.ClientHttp.csproj
+>> dotnet sln add OrderService.Shared/OrderService.Shared.csproj
+>>
+Il progetto `OrderService.Api\OrderService.Api.csproj` è stato aggiunto alla soluzione.
+Il progetto `OrderService.Business\OrderService.Business.csproj` è stato aggiunto alla soluzione.
+Il progetto `OrderService.ClientHttp\OrderService.ClientHttp.csproj` è stato aggiunto alla soluzione.
+Il progetto `OrderService.Shared\OrderService.Shared.csproj` è stato aggiunto alla soluzione.
+PS D:\Desktop\Progetto Microservizi> dotnet add OrderService.Api/OrderService.Api.csproj reference OrderService.Business/OrderService.Business.csproj
+>> dotnet add OrderService.Api/OrderService.Api.csproj reference OrderService.Shared/OrderService.Shared.csproj
+Il riferimento `..\OrderService.Business\OrderService.Business.csproj` è stato aggiunto al progetto.
+Il riferimento `..\OrderService.Shared\OrderService.Shared.csproj` è stato aggiunto al progetto.
+PS D:\Desktop\Progetto Microservizi> dotnet add OrderService.Business/OrderService.Business.csproj reference OrderService.Repository/OrderSe>> dotnet add OrderService.Business/OrderService.Business.csproj reference OrderService.Shared/OrderService.Shared.csproj
+>>
+Il riferimento `..\OrderService.Repository\OrderService.Repository.csproj` è stato aggiunto al progetto.
+Il riferimento `..\OrderService.Shared\OrderService.Shared.csproj` è stato aggiunto al progetto.
+PS D:\Desktop\Progetto Microservizi> dotnet add OrderService.ClientHttp/OrderService.ClientHttp.csproj reference OrderService.Shared/OrderService.Shared.csproj
+>>
+Il riferimento `..\OrderService.Shared\OrderService.Shared.csproj` è stato aggiunto al progetto.
+PS D:\Desktop\Progetto Microservizi> dotnet add OrderService.Repository/OrderService.Repository.csproj reference OrderService.Shared/OrderService.Shared.csproj
+>>
+Il riferimento `..\OrderService.Shared\OrderService.Shared.csproj` è stato aggiunto al progetto.
+
+
+dotnet add OrderService.Repository package Microsoft.EntityFrameworkCore
+dotnet add OrderService.Repository package Microsoft.EntityFrameworkCore.SqlServer
+dotnet add OrderService.Repository package Microsoft.EntityFrameworkCore.Design
+
+dotnet add OrderService.Repository reference OrderService.Shared/OrderService.Shared.csproj
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+cd OrderService.Repository
+dotnet tool install --global dotnet-ef
+in order service api
+dotnet add package Microsoft.AspNetCore.App
+dotnet add package Microsoft.EntityFrameworkCore
+
+dotnet ef migrations add InitialCreate --startup-project ../OrderService.Api
+
+dotnet add package Swashbuckle.AspNetCore
+ dotnet ef migrations add AddClientiEIndirizzi --project ../OrderService.Repository --startup-project .
+
+
+!Dentro ad orderservice : 
+dotnet ef database update --startup-project ../OrderService.Api
+- verifica connessione al db 
+
+dotnet new classlib -n OrderService.Kafka
+dotnet sln add OrderService.Kafka/OrderService.Kafka.csproj
+
+dotnet add OrderService.Api\OrderService.Api.csproj reference OrderService.ClientHttp\OrderService.ClientHttp.csproj
+
+dotnet add package Confluent.Kafka
+dotnet add OrderService.Kafka\OrderService.Kafka.csproj package Confluent.Kafka
+
+dotnet add OrderService.Api\OrderService.Api.csproj reference OrderService.Kafka\OrderService.Kafka.csproj
+
+
+
+
