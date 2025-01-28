@@ -1,38 +1,61 @@
+using System.Text.Json;
 using Confluent.Kafka;
-using InventoryService.Kafka.Abstraction;
+using InventoryService.Repository.Abstraction;
+using InventoryService.Shared.DTOs;
 
 namespace InventoryService.Kafka
 {
     public class KafkaConsumer : IKafkaConsumer
     {
-        private readonly IConsumer<Null, string> _consumer;
+        private readonly string _bootstrapServers;
+        private readonly string _groupId;
+        private readonly IProductRepository _productRepository;
 
-        public KafkaConsumer(string bootstrapServers, string groupId)
+        public KafkaConsumer(string bootstrapServers, string groupId, IProductRepository productRepository)
+        {
+            _bootstrapServers = bootstrapServers;
+            _groupId = groupId;
+            _productRepository = productRepository;
+        }
+
+        public void Consume(string topic, CancellationToken cancellationToken)
         {
             var config = new ConsumerConfig
             {
-                BootstrapServers = bootstrapServers,
-                GroupId = groupId,
+                BootstrapServers = _bootstrapServers,
+                GroupId = _groupId,
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
-            _consumer = new ConsumerBuilder<Null, string>(config).Build();
-        }
 
-        public void Subscribe(string topic)
-        {
-            _consumer.Subscribe(topic);
-        }
+            using var consumer = new ConsumerBuilder<Ignore, string>(config).Build();
+            consumer.Subscribe(topic);
 
-        public void Consume(Func<string, Task> onMessageReceived, CancellationToken cancellationToken)
-        {
-            Task.Run(() =>
+            try
             {
                 while (!cancellationToken.IsCancellationRequested)
                 {
-                    var result = _consumer.Consume(cancellationToken);
-                    onMessageReceived(result.Message.Value);
+                    var result = consumer.Consume(cancellationToken);
+
+                    if (result != null)
+                    {
+                        var message = JsonSerializer.Deserialize<ProductStockUpdateDto>(result.Message.Value);
+                        if (message != null)
+                        {
+                            // Aggiorna il database in base al messaggio
+                            _productRepository.UpdateStockAsync(message.ProductId, message.NewStock).Wait();
+                        }
+                    }
                 }
-            }, cancellationToken);
+            }
+            catch (Exception ex)
+            {
+                // Log dell'errore
+                Console.WriteLine($"Errore durante l'elaborazione dei messaggi Kafka: {ex.Message}");
+            }
+            finally
+            {
+                consumer.Close();
+            }
         }
     }
 }

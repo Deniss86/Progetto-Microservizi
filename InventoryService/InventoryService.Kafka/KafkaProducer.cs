@@ -1,26 +1,47 @@
-using Confluent.Kafka;
-using InventoryService.Kafka.Abstraction;
 using System.Text.Json;
+using InventoryService.Repository.Abstraction;
+using InventoryService.Shared.DTOs;
 
 namespace InventoryService.Kafka
 {
     public class KafkaProducer : IKafkaProducer
     {
-        private readonly IProducer<Null, string> _producer;
+        private readonly string _bootstrapServers;
+        private readonly ITransactionalOutboxRepository _outboxRepository;
 
-        public KafkaProducer(string bootstrapServers)
+        public KafkaProducer(string bootstrapServers, ITransactionalOutboxRepository outboxRepository)
         {
-            var config = new ProducerConfig
-            {
-                BootstrapServers = bootstrapServers
-            };
-            _producer = new ProducerBuilder<Null, string>(config).Build();
+            _bootstrapServers = bootstrapServers;
+            _outboxRepository = outboxRepository;
         }
 
-        public async Task ProduceAsync<T>(string topic, T message)
+        public async Task AddToOutboxAsync<T>(T message, string topic)
         {
-            var jsonMessage = JsonSerializer.Serialize(message);
-            await _producer.ProduceAsync(topic, new Message<Null, string> { Value = jsonMessage });
+            var serializedMessage = JsonSerializer.Serialize(message);
+
+            await _outboxRepository.AddToOutboxAsync(new TransactionalOutbox
+            {
+                Topic = topic,
+                Message = serializedMessage
+            });
+        }
+
+        public async Task PublishMessagesFromOutboxAsync()
+        {
+            var messages = await _outboxRepository.GetUnpublishedMessagesAsync();
+
+            foreach (var message in messages)
+            {
+                using var producer = new Confluent.Kafka.ProducerBuilder<Null, string>(
+                    new Confluent.Kafka.ProducerConfig { BootstrapServers = _bootstrapServers }).Build();
+
+                await producer.ProduceAsync(message.Topic, new Confluent.Kafka.Message<Null, string>
+                {
+                    Value = message.Message
+                });
+
+                await _outboxRepository.RemoveFromOutboxAsync(message.Id);
+            }
         }
     }
 }
