@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OvFBr+eCc00=",
+  "dgSpecHash": "NQzLmL6Xc0Q=",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\Progetto Microservizi\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj",
+  "projectFilePath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

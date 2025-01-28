@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\Progetto Microservizi\\OrderService.Api\\OrderService.Api.csproj": {}
+    "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Api\\OrderService.Api.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\Progetto Microservizi\\OrderService.Api\\OrderService.Api.csproj": {
+    "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Api\\OrderService.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService.Api\\OrderService.Api.csproj",
+        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
         "projectName": "OrderService.Api",
-        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Api\\OrderService.Api.csproj",
+        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Api\\OrderService.Api.csproj",
         "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Api\\obj\\",
+        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,17 +29,17 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Desktop\\Progetto Microservizi\\OrderService.Business\\OrderService.Business.csproj": {
-                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Business\\OrderService.Business.csproj"
+              "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Business\\OrderService.Business.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Business\\OrderService.Business.csproj"
               },
-              "D:\\Desktop\\Progetto Microservizi\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj": {
-                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj"
+              "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj"
               },
-              "D:\\Desktop\\Progetto Microservizi\\OrderService.Kafka\\OrderService.Kafka.csproj": {
-                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Kafka\\OrderService.Kafka.csproj"
+              "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Kafka\\OrderService.Kafka.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Kafka\\OrderService.Kafka.csproj"
               },
-              "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj": {
-                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj"
+              "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj"
               }
             }
           }
@@ -106,14 +106,14 @@
         }
       }
     },
-    "D:\\Desktop\\Progetto Microservizi\\OrderService.Business\\OrderService.Business.csproj": {
+    "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Business\\OrderService.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService.Business\\OrderService.Business.csproj",
+        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Business\\OrderService.Business.csproj",
         "projectName": "OrderService.Business",
-        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Business\\OrderService.Business.csproj",
+        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Business\\OrderService.Business.csproj",
         "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Business\\obj\\",
+        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -131,11 +131,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Desktop\\Progetto Microservizi\\OrderService.Repository\\OrderService.Repository.csproj": {
-                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Repository\\OrderService.Repository.csproj"
+              "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Repository\\OrderService.Repository.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Repository\\OrderService.Repository.csproj"
               },
-              "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj": {
-                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj"
+              "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj"
               }
             }
           }
@@ -175,14 +175,14 @@
         }
       }
     },
-    "D:\\Desktop\\Progetto Microservizi\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj": {
+    "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj",
+        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj",
         "projectName": "OrderService.ClientHttp",
-        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj",
+        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.ClientHttp\\OrderService.ClientHttp.csproj",
         "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.ClientHttp\\obj\\",
+        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.ClientHttp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -200,8 +200,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj": {
-                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj"
+              "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj"
               }
             }
           }
@@ -241,14 +241,14 @@
         }
       }
     },
-    "D:\\Desktop\\Progetto Microservizi\\OrderService.Kafka\\OrderService.Kafka.csproj": {
+    "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Kafka\\OrderService.Kafka.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService.Kafka\\OrderService.Kafka.csproj",
+        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Kafka\\OrderService.Kafka.csproj",
         "projectName": "OrderService.Kafka",
-        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Kafka\\OrderService.Kafka.csproj",
+        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Kafka\\OrderService.Kafka.csproj",
         "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Kafka\\obj\\",
+        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Kafka\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -309,14 +309,14 @@
         }
       }
     },
-    "D:\\Desktop\\Progetto Microservizi\\OrderService.Repository\\OrderService.Repository.csproj": {
+    "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Repository\\OrderService.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService.Repository\\OrderService.Repository.csproj",
+        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Repository\\OrderService.Repository.csproj",
         "projectName": "OrderService.Repository",
-        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Repository\\OrderService.Repository.csproj",
+        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Repository\\OrderService.Repository.csproj",
         "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Repository\\obj\\",
+        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -334,8 +334,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj": {
-                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj"
+              "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj"
               }
             }
           }
@@ -391,14 +391,14 @@
         }
       }
     },
-    "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj": {
+    "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj",
+        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj",
         "projectName": "OrderService.Shared",
-        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj",
+        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj",
         "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\obj\\",
+        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -15,6 +15,8 @@ namespace OrderService.Repository
         public DbSet<Cliente> Clienti { get; set; }
         public DbSet<Indirizzo> Indirizzi { get; set; }
 
+        public DbSet<TransactionalOutbox> TransactionalOutbox { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -50,6 +52,14 @@ namespace OrderService.Repository
                 entity.Property(e => e.Cap).HasMaxLength(5);
                 entity.Property(e => e.Provincia).HasMaxLength(2);
                 entity.Property(e => e.Localita).HasMaxLength(100);
+            });
+
+            // Configurazione della tabella TransactionalOutbox
+            modelBuilder.Entity<TransactionalOutbox>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+                entity.Property(e => e.Tabella).IsRequired().HasMaxLength(100);
+                entity.Property(e => e.Messaggio).IsRequired();
             });
         }
     }

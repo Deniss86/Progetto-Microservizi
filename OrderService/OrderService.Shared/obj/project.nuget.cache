@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "frBZ/NQCSBw=",
+  "dgSpecHash": "maodHjnjyIQ=",
   "success": true,
-  "projectFilePath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj",
+  "projectFilePath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

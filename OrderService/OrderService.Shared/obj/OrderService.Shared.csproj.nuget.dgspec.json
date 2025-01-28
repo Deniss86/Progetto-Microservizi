@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj": {}
+    "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj": {}
   },
   "projects": {
-    "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj": {
+    "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj",
+        "projectUniqueName": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj",
         "projectName": "OrderService.Shared",
-        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\OrderService.Shared.csproj",
+        "projectPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\OrderService.Shared.csproj",
         "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
-        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService.Shared\\obj\\",
+        "outputPath": "D:\\Desktop\\Progetto Microservizi\\OrderService\\OrderService.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
