@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderService.Repository\OrderService.Repository.csproj" />
+    <ProjectReference Include="..\OrderService.Shared\OrderService.Shared.csproj" />
+    <ProjectReference Include="..\OrderService.ClientHttp\OrderService.ClientHttp.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

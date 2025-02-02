@@ -1,0 +1,360 @@
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\appsettings.Development.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\appsettings.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.staticwebassets.endpoints.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.exe
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.deps.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.runtimeconfig.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Azure.Core.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Azure.Identity.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Confluent.Kafka.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Humanizer.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.ClientModel.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.CodeDom.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\linux-arm64\native\librdkafka.so
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\linux-x64\native\alpine-librdkafka.so
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\linux-x64\native\centos8-librdkafka.so
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\linux-x64\native\librdkafka.so
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\osx-arm64\native\librdkafka.dylib
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\osx-x64\native\librdkafka.dylib
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\libcrypto-3-x64.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\libcurl.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\librdkafka.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\librdkafkacpp.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\libssl-3-x64.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\msvcp140.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\vcruntime140.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\zlib1.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\zstd.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\libcrypto-3.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\libcurl.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\librdkafka.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\librdkafkacpp.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\libssl-3.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\msvcp140.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\vcruntime140.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\zlib1.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\zstd.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Business.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.ClientHttp.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Kafka.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Repository.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Shared.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.ClientHttp.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Repository.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Business.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Shared.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Kafka.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.csproj.AssemblyReference.cache
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.AssemblyInfoInputs.cache
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.AssemblyInfo.cs
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.sourcelink.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\scopedcss\bundle\InventoryService.Api.styles.css
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets.build.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets.development.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets\msbuild.InventoryService.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets\msbuild.InventoryService.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets\msbuild.build.InventoryService.Api.props
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.InventoryService.Api.props
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.InventoryService.Api.props
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets.pack.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\Inventor.A3AA7910.Up2Date
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\refint\InventoryService.Api.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.genruntimeconfig.cache
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Api\obj\Debug\net9.0\ref\InventoryService.Api.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\appsettings.Development.json
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\appsettings.json
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.staticwebassets.endpoints.json
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.exe
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.deps.json
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.runtimeconfig.json
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Api.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Azure.Core.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Azure.Identity.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Humanizer.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.ClientModel.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.CodeDom.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Business.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.ClientHttp.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Repository.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Shared.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.ClientHttp.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Repository.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Business.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\bin\Debug\net9.0\InventoryService.Shared.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.csproj.AssemblyReference.cache
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.AssemblyInfoInputs.cache
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.AssemblyInfo.cs
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\scopedcss\bundle\InventoryService.Api.styles.css
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets.build.json
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets.development.json
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets\msbuild.InventoryService.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets\msbuild.InventoryService.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets\msbuild.build.InventoryService.Api.props
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.InventoryService.Api.props
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.InventoryService.Api.props
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\staticwebassets.pack.json
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\Inventor.A3AA7910.Up2Date
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\refint\InventoryService.Api.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.genruntimeconfig.cache
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\ref\InventoryService.Api.dll

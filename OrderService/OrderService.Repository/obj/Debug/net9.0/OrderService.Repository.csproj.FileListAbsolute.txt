@@ -1,0 +1,35 @@
+D:\Desktop\Progetto Microservizi\OrderService.Repository\bin\Debug\net9.0\OrderService.Repository.deps.json
+D:\Desktop\Progetto Microservizi\OrderService.Repository\bin\Debug\net9.0\OrderService.Repository.dll
+D:\Desktop\Progetto Microservizi\OrderService.Repository\bin\Debug\net9.0\OrderService.Repository.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Repository\bin\Debug\net9.0\OrderService.Shared.dll
+D:\Desktop\Progetto Microservizi\OrderService.Repository\bin\Debug\net9.0\OrderService.Shared.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.csproj.AssemblyReference.cache
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.AssemblyInfoInputs.cache
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.AssemblyInfo.cs
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderSer.B228D0E6.Up2Date
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.dll
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\refint\OrderService.Repository.dll
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\ref\OrderService.Repository.dll
+D:\Desktop\Progetto Microservizi\OrderService.Repository\bin\Debug\net9.0\OrderService.Repository.runtimeconfig.json
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.genruntimeconfig.cache
+D:\Desktop\Progetto Microservizi\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.sourcelink.json
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\bin\Debug\net9.0\OrderService.Repository.deps.json
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\bin\Debug\net9.0\OrderService.Repository.runtimeconfig.json
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\bin\Debug\net9.0\OrderService.Repository.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\bin\Debug\net9.0\OrderService.Repository.pdb
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\bin\Debug\net9.0\OrderService.Shared.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\bin\Debug\net9.0\OrderService.Shared.pdb
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.csproj.AssemblyReference.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.AssemblyInfoInputs.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.AssemblyInfo.cs
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\OrderSer.B228D0E6.Up2Date
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\refint\OrderService.Repository.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.pdb
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\OrderService.Repository.genruntimeconfig.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Repository\obj\Debug\net9.0\ref\OrderService.Repository.dll

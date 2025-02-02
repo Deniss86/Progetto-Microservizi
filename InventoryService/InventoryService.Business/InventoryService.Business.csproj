@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryService.Repository\InventoryService.Repository.csproj" />
+    <ProjectReference Include="..\InventoryService.Shared\InventoryService.Shared.csproj" />
+    <ProjectReference Include="..\InventoryService.ClientHttp\InventoryService.ClientHttp.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

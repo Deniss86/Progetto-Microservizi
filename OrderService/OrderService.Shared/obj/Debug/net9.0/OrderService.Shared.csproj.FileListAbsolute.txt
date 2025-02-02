@@ -1,0 +1,23 @@
+D:\Desktop\Progetto Microservizi\OrderService.Shared\bin\Debug\net9.0\OrderService.Shared.deps.json
+D:\Desktop\Progetto Microservizi\OrderService.Shared\bin\Debug\net9.0\OrderService.Shared.dll
+D:\Desktop\Progetto Microservizi\OrderService.Shared\bin\Debug\net9.0\OrderService.Shared.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.AssemblyInfoInputs.cache
+D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.AssemblyInfo.cs
+D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.dll
+D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\refint\OrderService.Shared.dll
+D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\ref\OrderService.Shared.dll
+D:\Desktop\Progetto Microservizi\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.sourcelink.json
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\bin\Debug\net9.0\OrderService.Shared.deps.json
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\bin\Debug\net9.0\OrderService.Shared.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\bin\Debug\net9.0\OrderService.Shared.pdb
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.AssemblyInfoInputs.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.AssemblyInfo.cs
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\obj\Debug\net9.0\refint\OrderService.Shared.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\obj\Debug\net9.0\OrderService.Shared.pdb
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Shared\obj\Debug\net9.0\ref\OrderService.Shared.dll

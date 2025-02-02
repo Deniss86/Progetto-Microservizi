@@ -1,0 +1,86 @@
+version: '3.8'
+
+services:
+  # Servizio database per OrderService
+  orderservice-db:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"  # Usa un'immagine di SQL Server 2019
+    container_name: orderservice-db # Nome del container
+    environment:
+      ACCEPT_EULA: "Y"  # Accetta il contratto di licenza di Microsoft
+      MSSQL_PID: Developer  # Configura SQL Server come versione Developer
+      MSSQL_SA_PASSWORD: Admin123!  # Imposta la password per l'utente SA
+    ports:
+      - 1433:1433  # Mappa la porta 1433 del container alla porta 1433 del sistema host
+    volumes:
+      - "orderservice-db:/var/opt/mssql"  # Monta un volume per la persistenza dei dati
+
+  # Servizio database per InventoryService
+  inventoryservice-db:
+    image: "mcr.microsoft.com/mssql/server:2019-latest"  # Usa un'immagine di SQL Server 2019
+    container_name: inventoryservice-db # Nome del container
+    environment:
+      ACCEPT_EULA: "Y"  # Accetta il contratto di licenza di Microsoft
+      MSSQL_PID: Developer  # Configura SQL Server come versione Developer
+      MSSQL_SA_PASSWORD: Admin123!  # Imposta la password per l'utente SA
+    ports:
+      - 1434:1433  # Mappa la porta 1433 del container alla porta 1434 del sistema host
+    volumes:
+      - "inventoryservice-db:/var/opt/mssql"  # Monta un volume per la persistenza dei dati
+
+  # Servizio Zookeeper (necessario per Kafka)
+  # zookeeper:
+  #   container_name: zookeeper  # Nome del container
+  #   image: 'bitnami/zookeeper:3.9.0'  # Usa l'immagine Zookeeper versione 3.9.0
+  #   ports:
+  #     - '2181:2181'  # Espone la porta 2181
+  #   environment:
+  #     - ALLOW_ANONYMOUS_LOGIN=yes  # Permette il login anonimo per semplicità di configurazione
+
+  # Servizio Kafka (commentato per disabilitare Kafka)
+  # kafka:
+  #   container_name: kafka  # Nome del container
+  #   image: 'bitnami/kafka:3.1.0'  # Usa l'immagine Kafka versione 3.1.0
+  #   ports:
+  #     - '9092:9092'  # Espone la porta 9092 per Kafka
+  #   environment:
+  #     - KAFKA_BROKER_ID=1  # Identificativo del broker Kafka
+  #     - KAFKA_CFG_LISTENERS=PLAINTEXT://:9092  # Configura il listener in modalità PLAINTEXT
+  #     - KAFKA_CFG_ADVERTISED_LISTENERS=PLAINTEXT://kafka:9092  # Imposta il listener pubblicizzato
+  #     - KAFKA_CFG_ZOOKEEPER_CONNECT=zookeeper:2181  # Specifica il server Zookeeper per la gestione dei cluster Kafka
+  #     - ALLOW_PLAINTEXT_LISTENER=yes  # Abilita il listener in modalità non cifrata
+  #     - KAFKA_AUTO_CREATE_TOPICS_ENABLE=true  # Permette la creazione automatica dei topic
+  #   depends_on:
+  #     - zookeeper  # Garantisce che Kafka venga avviato dopo Zookeeper
+
+  # Servizio OrderService
+  orderservice:
+    build:
+      context: ./OrderService  # Cartella di build per il servizio
+      dockerfile: OrderService.Api/Dockerfile  # Percorso del Dockerfile specifico
+    container_name: orderservice  # Nome del container
+    depends_on:
+      - orderservice-db  # Garantisce che il database sia avviato prima di OrderService
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development  # Imposta l'ambiente di esecuzione come sviluppo
+      - ConnectionStrings__OrderDb=Server=orderservice-db,1433;Database=OrderDb;User Id=sa;Password=Admin123!;TrustServerCertificate=True;Encrypt=False;  # Stringa di connessione al database OrderService
+    ports:
+      - "5000:5000"  # Espone la porta 5000
+
+  # Servizio InventoryService
+  inventoryservice:
+    build:
+      context: ./InventoryService  # Cartella di build per il servizio
+      dockerfile: InventoryService.Api/Dockerfile  # Percorso del Dockerfile specifico
+    container_name: inventoryservice  # Nome del container
+    depends_on:
+      - inventoryservice-db  # Garantisce che il database sia avviato prima di InventoryService
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development  # Imposta l'ambiente di esecuzione come sviluppo
+      - ConnectionStrings__InventoryDb=Server=inventoryservice-db,1433;Database=InventoryDb;User Id=sa;Password=Admin123!;TrustServerCertificate=True;Encrypt=False;  # Stringa di connessione al database InventoryService
+    ports:
+      - "5001:5001"  # Espone la porta 5001
+
+# Definizione dei volumi per la persistenza dei database
+volumes:
+  orderservice-db:
+  inventoryservice-db:

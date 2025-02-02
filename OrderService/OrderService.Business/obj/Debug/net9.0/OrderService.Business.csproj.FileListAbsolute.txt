@@ -1,0 +1,37 @@
+D:\Desktop\Progetto Microservizi\OrderService.Business\bin\Debug\net9.0\OrderService.Business.deps.json
+D:\Desktop\Progetto Microservizi\OrderService.Business\bin\Debug\net9.0\OrderService.Business.dll
+D:\Desktop\Progetto Microservizi\OrderService.Business\bin\Debug\net9.0\OrderService.Business.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Business\bin\Debug\net9.0\OrderService.Repository.dll
+D:\Desktop\Progetto Microservizi\OrderService.Business\bin\Debug\net9.0\OrderService.Shared.dll
+D:\Desktop\Progetto Microservizi\OrderService.Business\bin\Debug\net9.0\OrderService.Repository.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Business\bin\Debug\net9.0\OrderService.Shared.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderService.Business.csproj.AssemblyReference.cache
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderService.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderService.Business.AssemblyInfoInputs.cache
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderService.Business.AssemblyInfo.cs
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderService.Business.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderSer.9928C263.Up2Date
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderService.Business.dll
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\refint\OrderService.Business.dll
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderService.Business.pdb
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\ref\OrderService.Business.dll
+D:\Desktop\Progetto Microservizi\OrderService.Business\obj\Debug\net9.0\OrderService.Business.sourcelink.json
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\bin\Debug\net9.0\OrderService.Business.deps.json
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\bin\Debug\net9.0\OrderService.Business.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\bin\Debug\net9.0\OrderService.Business.pdb
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\bin\Debug\net9.0\OrderService.ClientHttp.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\bin\Debug\net9.0\OrderService.Repository.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\bin\Debug\net9.0\OrderService.Shared.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\bin\Debug\net9.0\OrderService.Repository.pdb
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\bin\Debug\net9.0\OrderService.Shared.pdb
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\bin\Debug\net9.0\OrderService.ClientHttp.pdb
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.csproj.AssemblyReference.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.AssemblyInfoInputs.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.AssemblyInfo.cs
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderSer.9928C263.Up2Date
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\refint\OrderService.Business.dll
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.pdb
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\ref\OrderService.Business.dll

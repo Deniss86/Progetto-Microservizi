@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Business\\InventoryService.Business.csproj": {}
+  },
+  "projects": {
+    "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Business\\InventoryService.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Business\\InventoryService.Business.csproj",
+        "projectName": "InventoryService.Business",
+        "projectPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Business\\InventoryService.Business.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.ClientHttp\\InventoryService.ClientHttp.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.ClientHttp\\InventoryService.ClientHttp.csproj"
+              },
+              "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Repository\\InventoryService.Repository.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Repository\\InventoryService.Repository.csproj"
+              },
+              "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Shared\\InventoryService.Shared.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Shared\\InventoryService.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.ClientHttp\\InventoryService.ClientHttp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.ClientHttp\\InventoryService.ClientHttp.csproj",
+        "projectName": "InventoryService.ClientHttp",
+        "projectPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.ClientHttp\\InventoryService.ClientHttp.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.ClientHttp\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Shared\\InventoryService.Shared.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Shared\\InventoryService.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Repository\\InventoryService.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Repository\\InventoryService.Repository.csproj",
+        "projectName": "InventoryService.Repository",
+        "projectPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Repository\\InventoryService.Repository.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Shared\\InventoryService.Shared.csproj": {
+                "projectPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Shared\\InventoryService.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Shared\\InventoryService.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Shared\\InventoryService.Shared.csproj",
+        "projectName": "InventoryService.Shared",
+        "projectPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Shared\\InventoryService.Shared.csproj",
+        "packagesPath": "C:\\Users\\Win10\\.nuget\\packages\\",
+        "outputPath": "D:\\Desktop\\Progetto-Microservizi-master\\InventoryService\\InventoryService.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Win10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

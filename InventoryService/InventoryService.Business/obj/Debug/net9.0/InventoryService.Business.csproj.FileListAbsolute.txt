@@ -1,0 +1,41 @@
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Business.deps.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Business.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Business.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.ClientHttp.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Kafka.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Repository.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Shared.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Repository.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Shared.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.ClientHttp.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Kafka.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.csproj.AssemblyReference.cache
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.AssemblyInfoInputs.cache
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.AssemblyInfo.cs
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.sourcelink.json
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\Inventor.7F82BDCE.Up2Date
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\refint\InventoryService.Business.dll
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.pdb
+D:\Desktop\Progetto Microservizi\InventoryService\InventoryService.Business\obj\Debug\net9.0\ref\InventoryService.Business.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Business.deps.json
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Business.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Business.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.ClientHttp.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Repository.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Shared.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Repository.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.Shared.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\bin\Debug\net9.0\InventoryService.ClientHttp.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.csproj.AssemblyReference.cache
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.AssemblyInfoInputs.cache
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.AssemblyInfo.cs
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\Inventor.7F82BDCE.Up2Date
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\refint\InventoryService.Business.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.pdb
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\ref\InventoryService.Business.dll
