@@ -25,8 +25,7 @@ builder.WebHost.ConfigureKestrel(options =>
 
 // Configura il contesto del database e connessione a SQL Server
 builder.Services.AddDbContext<OrderDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("OrderDb"),
-        b => b.MigrationsAssembly("OrderService.Api")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("OrderDb")));
 
 // Registra il repository degli ordini nel container DI (Dependency Injection)
 builder.Services.AddScoped<IOrderRepository, OrderRepository>();

@@ -18,6 +18,8 @@ namespace InventoryService.Business
         }
 
         // Metodo per ottenere tutti i prodotti
+
+        // Si basa su getAllProductsAsync() definito in InventoryService.Repository/Abstraction/IProductRepository.cs
         public async Task<IEnumerable<ProductDto>> GetAllProductsAsync()
         {
             var products = await _productRepository.GetAllProductsAsync(); // Recupera tutti i prodotti dal repository
@@ -33,6 +35,7 @@ namespace InventoryService.Business
         }
 
         // Metodo per ottenere un prodotto tramite il suo ID
+        // Si basa su getProductByIdAsync() definito in InventoryService.Repository/Abstraction/IProductRepository.cs
         public async Task<ProductDto?> GetProductByIdAsync(int id)
         {
             var product = await _productRepository.GetProductByIdAsync(id); // Recupera il prodotto dal repository
@@ -50,6 +53,7 @@ namespace InventoryService.Business
         }
 
         // Metodo per aggiungere un nuovo prodotto all'inventario
+        // Si basa su addProductAsync() definito in InventoryService.Repository/Abstraction/IProductRepository.cs
         public async Task AddProductAsync(ProductDto productDto)
         {
             // Crea un nuovo oggetto Product basato sui dati ricevuti
@@ -67,15 +71,36 @@ namespace InventoryService.Business
         // Metodo per aggiornare la quantità di stock di un prodotto
         public async Task UpdateStockAsync(int productId, int quantity)
         {
-            var product = await _productRepository.GetProductByIdAsync(productId); // Recupera il prodotto
+            var product = await _productRepository.GetProductByIdAsync(productId);
             
             if (product == null)
             {
-                throw new Exception($"Product with ID {productId} not found."); // Se il prodotto non esiste, genera un'eccezione
+                throw new Exception($"Product with ID {productId} not found.");
             }
 
-            product.Stock -= quantity; // Aggiorna la quantità disponibile
-            await _productRepository.SaveChangesAsync(); // Salva le modifiche nel database
+            if (product.Stock < quantity)
+            {
+                throw new Exception("Stock insufficiente per completare l'operazione.");
+            }
+
+            product.Stock -= quantity;
+            await _productRepository.SaveChangesAsync();
         }
+
+        // Metodo per rimuovere un prodotto dall'inventario
+        public async Task RemoveProductAsync(int id)
+        {
+            var product = await _productRepository.GetProductByIdAsync(id); // Ottiene il prodotto dal repository
+            
+            if (product == null)
+            {
+                throw new Exception($"Product with ID {id} not found."); // Solleva un'eccezione se il prodotto non esiste
+            }
+
+            await _productRepository.RemoveAsync(id); // Rimuove il prodotto dal repository
+            await _productRepository.SaveChangesAsync(); //  Assicura che il database venga aggiornato
+        }
+
+
     }
 }

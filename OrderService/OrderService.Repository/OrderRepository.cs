@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using OrderService.Repository.Abstraction;
-using OrderService.Shared.Models;
+using OrderService.Repository.Model;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -55,5 +55,22 @@ namespace OrderService.Repository
                 _dbContext.Orders.Remove(order);
             }
         }
+        // Aggiorna un ordine esistente
+        public async Task UpdateOrderStatusAsync(int id, string status)
+        {
+            var existingOrder = await _dbContext.Orders.FindAsync(id);
+            if (existingOrder == null)
+            {
+                throw new KeyNotFoundException($"Order with id {id} not found.");
+            }
+
+            // Aggiorna solo lo stato
+            existingOrder.Status = status;
+
+            // Salva le modifiche
+            await _dbContext.SaveChangesAsync();
+        }
+
+
     }
 }

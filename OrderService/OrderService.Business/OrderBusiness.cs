@@ -1,9 +1,9 @@
 using OrderService.Business.Abstraction; // Importa l'interfaccia della logica di business
 using OrderService.Repository.Abstraction; // Importa l'interfaccia del repository degli ordini
-using OrderService.Shared.Models; // Importa il modello degli ordini
+using OrderService.Repository.Model; // Importa il modello degli ordini
 using OrderService.ClientHttp.Abstraction; // Importa l'interfaccia per la comunicazione HTTP
 using System.Text.Json; // Importa il supporto per la serializzazione JSON
-
+ 
 namespace OrderService.Business
 {
     // Implementa la logica di business per la gestione degli ordini
@@ -77,20 +77,23 @@ namespace OrderService.Business
         {
             return await _orderRepository.GetAllOrdersAsync(); // Recupera tutti gli ordini
         }
-
-        public async Task UpdateOrderAsync(int id, Order order)
+        // Metodo per aggiornare lo stato di un ordine 
+        public async Task UpdateOrderStatusAsync(int id, string status)
         {
             var existingOrder = await _orderRepository.GetOrderByIdAsync(id);
             if (existingOrder == null)
-            throw new KeyNotFoundException("Order not found");
+            {
+                throw new KeyNotFoundException("Order not found");
+            }
 
-            existingOrder.Quantity = order.Quantity;
-            existingOrder.TotalPrice = order.TotalPrice;
-            existingOrder.Status = order.Status;
+            // Aggiorna solo lo stato
+            existingOrder.Status = status;
 
-            await _orderRepository.SaveChangesAsync();
+            // Salva le modifiche
+            await _orderRepository.UpdateOrderStatusAsync(id, status);
         }
 
+        // Metodo per cancellare un ordine
         public async Task DeleteOrderAsync(int id)
         {
             await _orderRepository.RemoveAsync(id);

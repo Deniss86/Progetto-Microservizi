@@ -1,5 +1,4 @@
 using Microsoft.EntityFrameworkCore; // Importa Entity Framework Core
-using OrderService.Shared.Models; // Importa i modelli condivisi degli ordini
 using OrderService.Repository.Model; // Importa i modelli del repository
 
 namespace OrderService.Repository

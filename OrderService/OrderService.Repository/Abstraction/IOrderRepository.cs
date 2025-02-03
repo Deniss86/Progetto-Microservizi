@@ -21,5 +21,9 @@ namespace OrderService.Repository.Abstraction
 
         // Metodo per rimuovere un ordine tramite ID
         Task RemoveAsync(int id);
+
+        // Metodo per aggiornare un ordine esistente
+        Task UpdateOrderStatusAsync(int id, string status);
+
     }
 }

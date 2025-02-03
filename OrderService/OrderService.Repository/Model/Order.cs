@@ -1,4 +1,4 @@
-namespace OrderService.Shared.Models
+namespace OrderService.Repository.Models
 {
 
     /*

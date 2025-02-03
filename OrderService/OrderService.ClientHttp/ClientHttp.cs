@@ -29,7 +29,7 @@ namespace OrderService.ClientHttp
         public async Task<bool> UpdateStockAsync(ProductStockUpdateDto stockUpdate, CancellationToken cancellationToken = default)
         {
             // Effettua una richiesta POST per aggiornare lo stock del prodotto
-            var response = await _httpClient.PostAsJsonAsync("api/stock/update", stockUpdate, cancellationToken);
+            var response = await _httpClient.PostAsJsonAsync("api/products/update-stock", stockUpdate, cancellationToken);
             
             // Restituisce true se la richiesta ha avuto successo, altrimenti false
             return response.IsSuccessStatusCode;

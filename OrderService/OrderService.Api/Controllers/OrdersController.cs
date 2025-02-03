@@ -2,7 +2,8 @@ using Microsoft.AspNetCore.Mvc; // Importa il supporto per i controller API in A
 using OrderService.Business.Abstraction; // Importa l'interfaccia della logica di business degli ordini
 //using OrderService.Kafka.Abstraction; // Importa l'interfaccia per il producer Kafka
 using OrderService.ClientHttp.Abstraction; // Importa l'interfaccia per la comunicazione HTTP
-using OrderService.Shared.Models; // Importa il modello Order
+using OrderService.Repository.Model; // Importa il modello degli ordini
+using System.Collections.Generic; // Importa le collezioni generiche per gestire le eccezioni
 
 namespace OrderService.Api.Controllers
 {
@@ -25,6 +26,9 @@ namespace OrderService.Api.Controllers
 
         // Endpoint HTTP POST per creare un nuovo ordine
         [HttpPost]
+
+        // Metodo associato a CreateOrderAsync per creare un nuovo ordine di Business
+        // Comunica con l'inventario con IClientHttp.UpdateStockAsync
         public async Task<IActionResult> CreateOrder([FromBody] Order order)
         {
             await _orderBusiness.CreateOrderAsync(order); // Chiamata alla logica di business per creare l'ordine
@@ -37,7 +41,7 @@ namespace OrderService.Api.Controllers
             };
             await _clientHttp.UpdateStockAsync(stockUpdate);
 
-            // Invia un messaggio Kafka per notificare la creazione dell'ordine (commentato)
+            // Invia un messaggio Kafka per notificare la creazione dell'ordine 
             //await _kafkaProducer.ProduceAsync("order-updates", order);
 
             // Restituisce HTTP 201 Created con il link all'ordine appena creato
@@ -57,10 +61,47 @@ namespace OrderService.Api.Controllers
 
         // Endpoint HTTP GET per ottenere tutti gli ordini
         [HttpGet]
+
+        // Metodo associato a GetAllOrdersAsync per ottenere tutti gli ordini di Business
         public async Task<IActionResult> GetAllOrders()
         {
             var orders = await _orderBusiness.GetAllOrdersAsync(); // Recupera tutti gli ordini
             return Ok(orders); // Restituisce HTTP 200 con la lista degli ordini
         }
-    }
+
+        // Endpoint HTTP DELETE per eliminare un ordine tramite ID
+        // Metodo associato a DeleteOrderAsync per eliminare un ordine di Business
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteOrder(int id)
+        {
+            try
+            {
+                await _orderBusiness.DeleteOrderAsync(id); // Chiama la logica di business per eliminare l'ordine
+                return NoContent(); // Restituisce HTTP 204 No Content se l'eliminazione è avvenuta con successo
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound(); // Restituisce HTTP 404 se l'ordine non esiste
+            }
+        }
+        // Metodoo per aggiornare un ordine gia esistente
+        // Si appoggia a UpdateOrderAsync della Business
+       [HttpPut("{id}/status")]
+        public async Task<IActionResult> UpdateOrderStatus(int id, [FromBody] string status)
+        {
+            try
+            {
+                await _orderBusiness.UpdateOrderStatusAsync(id, status); // Chiama il metodo di business per aggiornare lo stato
+                return NoContent(); // HTTP 204
+            }
+            catch (KeyNotFoundException)
+            {
+                return NotFound(); // HTTP 404 se l'ordine non esiste
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message); // HTTP 400 per eventuali errori
+            }
+        }
+
 }

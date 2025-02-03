@@ -18,6 +18,7 @@ namespace InventoryService.Api.Controllers
         }
 
         // Endpoint HTTP GET per ottenere tutti i prodotti
+        // Si basa su getAllProductsAsync() definito in InventoryService.Business/Abstraction/IInventoryBusiness.cs
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetAllProducts()
         {
@@ -26,15 +27,17 @@ namespace InventoryService.Api.Controllers
         }
 
         // Endpoint HTTP GET per ottenere un prodotto specifico in base all'ID
+        // Si basa su getProductByIdAsync() definito in InventoryService.Business/Abstraction/IInventoryBusiness.cs
         [HttpGet("{id}")]
         public async Task<ActionResult<ProductDto>> GetProductById(int id)
         {
             var product = await _inventoryBusiness.GetProductByIdAsync(id); // Ottiene il prodotto con l'ID specificato
             if (product == null) return NotFound(); // Restituisce HTTP 404 se il prodotto non esiste
-            return Ok(product); // Restituisce HTTP 200 con il prodotto trovato
+            return Ok(product); // Restituisce HTTP 200 con il DTO in JSON
         }
 
         // Endpoint HTTP POST per aggiungere un nuovo prodotto
+        // Si basa su addProductAsync() definito in InventoryService.Business/Abstraction/IInventoryBusiness.cs
         [HttpPost]
         public async Task<ActionResult> AddProduct([FromBody] ProductDto productDto)
         {
@@ -44,6 +47,7 @@ namespace InventoryService.Api.Controllers
         }
         
         // Endpoint HTTP POST per aggiornare lo stock di un prodotto
+        // Si basa su updateStockAsync() definito in InventoryService.Business/Abstraction/IInventoryBusiness.cs
         [HttpPost("update-stock")]
         public async Task<ActionResult> UpdateStock([FromBody] ProductStockUpdateDto stockUpdateDto)
         {
@@ -58,5 +62,21 @@ namespace InventoryService.Api.Controllers
                 return BadRequest(ex.Message); // Restituisce HTTP 400 in caso di errore
             }
         }
+
+        // Endpoint HTTP DELETE per eliminare un prodotto
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            try
+            {
+                await _inventoryBusiness.RemoveProductAsync(id);
+                return NoContent(); // 🔹 Restituisce HTTP 204 (Eliminazione avvenuta con successo)
+            }
+            catch (Exception ex)
+            {
+                return NotFound(new { message = ex.Message }); // 🔹 Restituisce HTTP 404 se il prodotto non esiste
+            }
+        }
+
     }
 }

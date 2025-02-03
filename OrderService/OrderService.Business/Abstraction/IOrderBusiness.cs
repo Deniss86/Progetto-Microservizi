@@ -17,7 +17,7 @@ namespace OrderService.Business.Abstraction
         Task<IEnumerable<Order>> GetAllOrdersAsync();
 
         // Metodo per aggiornare un ordine esistente
-        Task UpdateOrderAsync(int id, Order order);
+        Task UpdateOrderStatusAsync(int id, string status);
 
         // Metodo per eliminare un ordine
         Task DeleteOrderAsync(int id);
