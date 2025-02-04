@@ -39,3 +39,4 @@ D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Busine
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\refint\InventoryService.Business.dll
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.pdb
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\ref\InventoryService.Business.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Business\obj\Debug\net9.0\InventoryService.Business.sourcelink.json

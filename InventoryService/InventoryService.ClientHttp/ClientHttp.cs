@@ -18,6 +18,8 @@ namespace InventoryService.ClientHttp
         {
             _httpClient = httpClient;
         }
+        
+        // Questi metodi dentro Inventory service non servono a niente, sono gia implementati in Order
 
         // Metodo per recuperare un prodotto dal servizio remoto tramite il suo ID
         public async Task<ProductDto?> GetProductByIdAsync(int productId, CancellationToken cancellationToken = default)

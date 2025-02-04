@@ -358,3 +358,4 @@ D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\ob
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.pdb
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.genruntimeconfig.cache
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\ref\InventoryService.Api.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Api\obj\Debug\net9.0\InventoryService.Api.sourcelink.json

@@ -18,6 +18,6 @@ namespace InventoryService.Business.Abstraction
         Task AddProductAsync(ProductDto productDto);
         
         // Metodo per rimuovere un prodotto dall'inventario
-        Task RemoveProductAsync(int id)
+        Task RemoveProductAsync(int id);
     }
 }

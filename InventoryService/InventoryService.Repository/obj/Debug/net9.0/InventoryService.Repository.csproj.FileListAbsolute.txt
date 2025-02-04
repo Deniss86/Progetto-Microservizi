@@ -33,3 +33,4 @@ D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Reposi
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Repository\obj\Debug\net9.0\InventoryService.Repository.pdb
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Repository\obj\Debug\net9.0\InventoryService.Repository.genruntimeconfig.cache
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Repository\obj\Debug\net9.0\ref\InventoryService.Repository.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Repository\obj\Debug\net9.0\InventoryService.Repository.sourcelink.json

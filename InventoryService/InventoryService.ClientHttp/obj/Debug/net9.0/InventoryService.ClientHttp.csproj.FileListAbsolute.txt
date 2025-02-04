@@ -29,3 +29,4 @@ D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Client
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.ClientHttp\obj\Debug\net9.0\refint\InventoryService.ClientHttp.dll
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.ClientHttp\obj\Debug\net9.0\InventoryService.ClientHttp.pdb
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.ClientHttp\obj\Debug\net9.0\ref\InventoryService.ClientHttp.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.ClientHttp\obj\Debug\net9.0\InventoryService.ClientHttp.sourcelink.json

@@ -3,6 +3,7 @@ using OrderService.Business.Abstraction; // Importa l'interfaccia della logica d
 //using OrderService.Kafka.Abstraction; // Importa l'interfaccia per il producer Kafka
 using OrderService.ClientHttp.Abstraction; // Importa l'interfaccia per la comunicazione HTTP
 using OrderService.Repository.Model; // Importa il modello degli ordini
+using OrderService.Shared.Models; // Importa i modelli condivisi
 using System.Collections.Generic; // Importa le collezioni generiche per gestire le eccezioni
 
 namespace OrderService.Api.Controllers
@@ -103,5 +104,5 @@ namespace OrderService.Api.Controllers
                 return BadRequest(ex.Message); // HTTP 400 per eventuali errori
             }
         }
-
+    }
 }

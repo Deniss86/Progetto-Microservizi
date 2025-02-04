@@ -1,4 +1,4 @@
-using OrderService.Shared.Models; // Importa il modello degli ordini
+using OrderService.Repository.Model; // Importa il modello degli ordini
 using System.Collections.Generic; // Importa il supporto per le collezioni
 using System.Threading.Tasks; // Importa il supporto per le operazioni asincrone
 

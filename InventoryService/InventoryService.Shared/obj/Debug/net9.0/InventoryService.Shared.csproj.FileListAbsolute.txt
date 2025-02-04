@@ -21,3 +21,4 @@ D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Shared
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Shared\obj\Debug\net9.0\refint\InventoryService.Shared.dll
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Shared\obj\Debug\net9.0\InventoryService.Shared.pdb
 D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Shared\obj\Debug\net9.0\ref\InventoryService.Shared.dll
+D:\Desktop\Progetto-Microservizi-master\InventoryService\InventoryService.Shared\obj\Debug\net9.0\InventoryService.Shared.sourcelink.json

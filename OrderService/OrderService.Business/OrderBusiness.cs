@@ -2,6 +2,7 @@ using OrderService.Business.Abstraction; // Importa l'interfaccia della logica d
 using OrderService.Repository.Abstraction; // Importa l'interfaccia del repository degli ordini
 using OrderService.Repository.Model; // Importa il modello degli ordini
 using OrderService.ClientHttp.Abstraction; // Importa l'interfaccia per la comunicazione HTTP
+using OrderService.Shared.Models; // Importa i modelli condivisi
 using System.Text.Json; // Importa il supporto per la serializzazione JSON
  
 namespace OrderService.Business

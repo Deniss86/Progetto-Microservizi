@@ -24,6 +24,7 @@ D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.ClientHttp\obj
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.ClientHttp\obj\Debug\net9.0\OrderService.ClientHttp.AssemblyInfoInputs.cache
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.ClientHttp\obj\Debug\net9.0\OrderService.ClientHttp.AssemblyInfo.cs
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.ClientHttp\obj\Debug\net9.0\OrderService.ClientHttp.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.ClientHttp\obj\Debug\net9.0\OrderService.ClientHttp.sourcelink.json
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.ClientHttp\obj\Debug\net9.0\OrderSer.30D95136.Up2Date
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.ClientHttp\obj\Debug\net9.0\OrderService.ClientHttp.dll
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.ClientHttp\obj\Debug\net9.0\refint\OrderService.ClientHttp.dll

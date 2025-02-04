@@ -340,6 +340,7 @@ D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Api\obj\Debug\
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Api\obj\Debug\net9.0\OrderService.Api.csproj.CoreCompileInputs.cache
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Api\obj\Debug\net9.0\OrderService.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Api\obj\Debug\net9.0\OrderService.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Api\obj\Debug\net9.0\OrderService.Api.sourcelink.json
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Api\obj\Debug\net9.0\scopedcss\bundle\OrderService.Api.styles.css
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Api\obj\Debug\net9.0\staticwebassets.build.json
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Api\obj\Debug\net9.0\staticwebassets.development.json

@@ -30,6 +30,7 @@ D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\D
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.AssemblyInfoInputs.cache
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.AssemblyInfo.cs
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.csproj.CoreCompileInputs.cache
+D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.sourcelink.json
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderSer.9928C263.Up2Date
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\OrderService.Business.dll
 D:\Desktop\Progetto-Microservizi-master\OrderService\OrderService.Business\obj\Debug\net9.0\refint\OrderService.Business.dll
