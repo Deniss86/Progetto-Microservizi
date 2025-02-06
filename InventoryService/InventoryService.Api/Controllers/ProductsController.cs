@@ -19,7 +19,7 @@ namespace InventoryService.Api.Controllers
 
         // Endpoint HTTP GET per ottenere tutti i prodotti
         // Si basa su getAllProductsAsync() definito in InventoryService.Business/Abstraction/IInventoryBusiness.cs
-        [HttpGet]
+        [HttpGet] // Action 
         public async Task<ActionResult<IEnumerable<ProductDto>>> GetAllProducts()
         {
             var products = await _inventoryBusiness.GetAllProductsAsync(); // Ottiene tutti i prodotti dal livello di business
@@ -28,7 +28,7 @@ namespace InventoryService.Api.Controllers
 
         // Endpoint HTTP GET per ottenere un prodotto specifico in base all'ID
         // Si basa su getProductByIdAsync() definito in InventoryService.Business/Abstraction/IInventoryBusiness.cs
-        [HttpGet("{id}")]
+        [HttpGet("{id}")] // Action 
         public async Task<ActionResult<ProductDto>> GetProductById(int id)
         {
             var product = await _inventoryBusiness.GetProductByIdAsync(id); // Ottiene il prodotto con l'ID specificato
@@ -38,7 +38,7 @@ namespace InventoryService.Api.Controllers
 
         // Endpoint HTTP POST per aggiungere un nuovo prodotto
         // Si basa su addProductAsync() definito in InventoryService.Business/Abstraction/IInventoryBusiness.cs
-        [HttpPost]
+        [HttpPost] // Action 
         public async Task<ActionResult> AddProduct([FromBody] ProductDto productDto)
         {
             await _inventoryBusiness.AddProductAsync(productDto); // Chiama la logica di business per aggiungere il prodotto
@@ -48,7 +48,7 @@ namespace InventoryService.Api.Controllers
         
         // Endpoint HTTP POST per aggiornare lo stock di un prodotto
         // Si basa su updateStockAsync() definito in InventoryService.Business/Abstraction/IInventoryBusiness.cs
-        [HttpPost("update-stock")]
+        [HttpPost("update-stock")] // Action 
         public async Task<ActionResult> UpdateStock([FromBody] ProductStockUpdateDto stockUpdateDto)
         {
             try
@@ -64,7 +64,7 @@ namespace InventoryService.Api.Controllers
         }
 
         // Endpoint HTTP DELETE per eliminare un prodotto
-        [HttpDelete("{id}")]
+        [HttpDelete("{id}")] // Action 
         public async Task<IActionResult> DeleteProduct(int id)
         {
             try

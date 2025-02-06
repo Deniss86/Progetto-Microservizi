@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OrderService.ClientHttp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9fedbdd669cef00068030e621a325b942d64909")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78a93bd210c9c45220de8dee82b9fcec92398b5f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OrderService.ClientHttp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OrderService.ClientHttp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

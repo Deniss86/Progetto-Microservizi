@@ -8,6 +8,11 @@ using InventoryService.ClientHttp.Abstraction; // Importa l'interfaccia del clie
 // using InventoryService.Kafka.Abstraction; // Importa l'interfaccia per Kafka
 using Microsoft.EntityFrameworkCore; // Importa il supporto per Entity Framework Core (Database ORM)
 
+// • I servizi REST in ASP.NET Core posso essere implementati basandosi sui
+// Controller di MVC oppure nel formato Minimal APIs.
+
+// Noi usere il controller di MVC
+
 var builder = WebApplication.CreateBuilder(args); // Crea il builder dell'applicazione
 
 // Configura il server Kestrel per ascoltare sulla porta 5001
@@ -47,7 +52,7 @@ builder.Services.AddHttpClient<IClientHttp, ClientHttp>(client =>
 builder.Services.AddControllers();
 
 // Configura Swagger per la documentazione delle API
-builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddEndpointsApiExplorer(); // Aggiunge il supporto alle Minimal APIs, anche se noi utilizzeremo i controller
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build(); // Costruisce l'applicazione
@@ -60,11 +65,13 @@ if (app.Environment.IsDevelopment())
 }
 
 // Abilita la redirezione HTTPS per garantire connessioni sicure
-app.UseHttpsRedirection();
+app.UseHttpsRedirection(); // -> Aggiunge il middleware per reindirizzare le richieste HTTP verso HTTPS
 
 // Abilita l'autorizzazione (in futuro potrebbe includere autenticazione)
-app.UseAuthorization();
+app.UseAuthorization(); // -> Aggiunge il middleware per le funzionalità di autorizzazione
 
 app.MapControllers(); // Mappa i controller alle route HTTP
-
+                     // Aggiunge gli endpoint per le action dei controller: permettono di utilizzare le
+                    // funzionalità di routing necessarie a inoltrare le richieste alle action.
+ 
 app.Run(); // Avvia l'applicazione
