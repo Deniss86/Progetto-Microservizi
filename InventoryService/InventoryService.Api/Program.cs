@@ -18,7 +18,7 @@ var builder = WebApplication.CreateBuilder(args); // Crea il builder dell'applic
 // Configura il server Kestrel per ascoltare sulla porta 5001
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenAnyIP(5000); // Il server accetta connessioni su qualsiasi IP sulla porta 5001
+    options.ListenAnyIP(5001); // Il server accetta connessioni su qualsiasi IP sulla porta 5001
 });
 
 // Configura il DbContext per collegarsi a SQL Server usando la stringa di connessione dal file di configurazione

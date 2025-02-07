@@ -28,7 +28,7 @@ namespace InventoryService.Api.Controllers
 
         // Endpoint HTTP GET per ottenere un prodotto specifico in base all'ID
         // Si basa su getProductByIdAsync() definito in InventoryService.Business/Abstraction/IInventoryBusiness.cs
-        [HttpGet("{id}")(Name = "GetProductsByID")] // Action 
+        [HttpGet("{id}", Name = "GetProductsByID")] // Action 
         public async Task<ActionResult<ProductDto>> GetProductById(int id)
         {
             var product = await _inventoryBusiness.GetProductByIdAsync(id); // Ottiene il prodotto con l'ID specificato
@@ -48,7 +48,7 @@ namespace InventoryService.Api.Controllers
         
         // Endpoint HTTP POST per aggiornare lo stock di un prodotto
         // Si basa su updateStockAsync() definito in InventoryService.Business/Abstraction/IInventoryBusiness.cs
-        [HttpPost("update-stock")(Name = "UpdateStock")] // Action 
+        [HttpPost("update-stock", Name = "UpdateStock")] // Action 
         public async Task<ActionResult> UpdateStock([FromBody] ProductStockUpdateDto stockUpdateDto)
         {
             try
@@ -66,7 +66,7 @@ namespace InventoryService.Api.Controllers
         }
 
         // Endpoint HTTP DELETE per eliminare un prodotto
-        [HttpDelete("{id}")(Name = "DeleteProduct")] // Action 
+        [HttpDelete("{id}", Name = "DeleteProduct")] // Action 
         public async Task<IActionResult> DeleteProduct(int id)
         {
             try

@@ -12,6 +12,6 @@ namespace OrderService.ClientHttp.Abstraction
         // CancellationToken → Permette di interrompere le richieste HTTP in caso di timeout o altre esigenze.
         
         // Metodo per aggiornare lo stock di un prodotto tramite una richiesta HTTP POST
-        Task<bool> UpdateStockAsync(ProductStockUpdateDto stockUpdate, CancellationToken cancellationToken = default);
+        Task UpdateStockAsync(ProductStockUpdateDto stockUpdate, CancellationToken cancellationToken = default);
     }
 }

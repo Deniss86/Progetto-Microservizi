@@ -25,47 +25,35 @@ namespace OrderService.Business
         // Metodo per creare un nuovo ordine
         public async Task CreateOrderAsync(Order order)
         {
-            // Controlla che la quantità sia valida
             if (order.Quantity <= 0)
                 throw new ArgumentException("Invalid order quantity");
 
-            // Salva l'ordine nel database
-            await _orderRepository.AddOrderAsync(order);
-
-            // Invia una richiesta HTTP al servizio di inventario per aggiornare lo stock
-            var stockUpdate = new ProductStockUpdateDto
+            try
             {
-                ProductId = order.ProductId,
-                Quantity = order.Quantity
-            };
-            await _clientHttp.UpdateStockAsync(stockUpdate);
-
-            // Crea un messaggio outbox per la sincronizzazione con Kafka (commentato)
-            /*
-            var outboxMessage = new OutboxMessageDto
-            {
-                Table = "Orders",
-                Operation = "Insert",
-                Message = JsonSerializer.Serialize(new
+                // Invia una richiesta HTTP al servizio di inventario per aggiornare lo stock PRIMA di salvare l'ordine
+                var stockUpdate = new ProductStockUpdateDto
                 {
-                    Id = order.Id,
-                    Quantity = order.Quantity,
-                    TotalPrice = order.TotalPrice,
-                    Status = order.Status
-                })
-            };
+                    ProductId = order.ProductId,
+                    Quantity = order.Quantity
+                };
 
-            await _orderRepository.AddOutboxMessageAsync(new TransactionalOutbox
+                await _clientHttp.UpdateStockAsync(stockUpdate);
+
+                // Se l'aggiornamento dello stock è riuscito, allora salva l'ordine nel database
+                await _orderRepository.AddOrderAsync(order);
+                await _orderRepository.SaveChangesAsync();
+            }
+            catch (HttpRequestException ex)
             {
-                Table = outboxMessage.Table,
-                Operation = outboxMessage.Operation,
-                Message = outboxMessage.Message
-            });
-            */
-
-            // Salva le modifiche nel database
-            await _orderRepository.SaveChangesAsync();
+                // Se la richiesta al servizio Inventory fallisce, l'ordine non viene salvato
+                throw new Exception("Failed to update stock in InventoryService. Order creation aborted.", ex);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("An error occurred while creating the order.", ex);
+            }
         }
+
 
         // Metodo per ottenere un ordine tramite ID
         public async Task<Order?> GetOrderAsync(int id)

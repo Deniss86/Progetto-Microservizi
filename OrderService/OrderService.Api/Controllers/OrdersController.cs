@@ -50,7 +50,7 @@ namespace OrderService.Api.Controllers
         }
 
         // Endpoint HTTP GET per ottenere un ordine specifico tramite ID
-        [HttpGet("{id}")(Name = "GetOrderById")]
+        [HttpGet("{id}", Name = "GetOrderById")]
         public async Task<IActionResult> GetOrder(int id)
         {
             var order = await _orderBusiness.GetOrderAsync(id); // Recupera l'ordine tramite la logica di business
@@ -72,7 +72,7 @@ namespace OrderService.Api.Controllers
 
         // Endpoint HTTP DELETE per eliminare un ordine tramite ID
         // Metodo associato a DeleteOrderAsync per eliminare un ordine di Business
-        [HttpDelete("{id}")(Name = "DeleteOrder")]
+        [HttpDelete("{id}", Name = "DeleteOrder")]
         public async Task<IActionResult> DeleteOrder(int id)
         {
             try
@@ -87,7 +87,7 @@ namespace OrderService.Api.Controllers
         }
         // Metodoo per aggiornare un ordine gia esistente
         // Si appoggia a UpdateOrderAsync della Business
-       [HttpPut("{id}/status")(Name = "UpdateOrderStatus")]
+       [HttpPut("{id}/status", Name = "UpdateOrderStatus")]
         public async Task<IActionResult> UpdateOrderStatus(int id, [FromBody] string status)
         {
             try

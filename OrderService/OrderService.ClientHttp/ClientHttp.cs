@@ -26,13 +26,23 @@ namespace OrderService.ClientHttp
         }
 
         // Metodo per aggiornare lo stock di un prodotto tramite una richiesta HTTP POST
-        public async Task<bool> UpdateStockAsync(ProductStockUpdateDto stockUpdate, CancellationToken cancellationToken = default)
+        public async Task UpdateStockAsync(ProductStockUpdateDto stockUpdate, CancellationToken cancellationToken = default)
         {
-            // Effettua una richiesta POST per aggiornare lo stock del prodotto
-            var response = await _httpClient.PostAsJsonAsync("api/products/update-stock", stockUpdate, cancellationToken);
-            
-            // Restituisce true se la richiesta ha avuto successo, altrimenti false
-            return response.IsSuccessStatusCode;
+            try
+            {
+                Console.WriteLine($"[DEBUG] OrderService sta inviando la richiesta a InventoryService: ProductId = {stockUpdate.ProductId}, Quantity = {stockUpdate.Quantity}");
+                var response = await _httpClient.PostAsJsonAsync("/api/Products/UpdateStock/update-stock", stockUpdate, cancellationToken);
+                
+                if (!response.IsSuccessStatusCode)
+                {
+                    var errorMessage = await response.Content.ReadAsStringAsync();
+                    throw new Exception($"Inventory update failed: {errorMessage}");
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                throw new Exception("Failed to communicate with InventoryService.", ex);
+            }
         }
     }
 }
