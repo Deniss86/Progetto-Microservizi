@@ -22,8 +22,8 @@ namespace InventoryService.Repository
             modelBuilder.Entity<Product>(entity =>
             {
                 entity.HasKey(e => e.Id); // Chiave primaria
-                entity.Property(e => e.Name).IsRequired().HasMaxLength(100);
-                entity.Property(e => e.Stock).IsRequired();
+                entity.Property(e => e.Name).IsRequired().HasMaxLength(100); // Indica il nome del prodotto, obbligatorio e lunghezza massima 100
+                entity.Property(e => e.Stock).IsRequired(); // Indica lo stock del prodotto, obbligatorio
                 entity.Property(e => e.Price).HasPrecision(18, 2); // Precisione decimale
             });
         }

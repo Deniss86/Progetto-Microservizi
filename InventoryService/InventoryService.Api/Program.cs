@@ -10,8 +10,7 @@ using Microsoft.EntityFrameworkCore; // Importa il supporto per Entity Framework
 
 // • I servizi REST in ASP.NET Core posso essere implementati basandosi sui
 // Controller di MVC oppure nel formato Minimal APIs.
-
-// Noi usere il controller di MVC
+// Noi usiamo il controller di MVC
 
 var builder = WebApplication.CreateBuilder(args); // Crea il builder dell'applicazione
 

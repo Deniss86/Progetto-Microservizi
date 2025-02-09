@@ -1,10 +1,12 @@
 ﻿﻿using InventoryService.ClientHttp.Abstraction; // Importa l'interfaccia per la comunicazione HTTP
 using InventoryService.Shared.DTOs; // Importa i DTO
-using System;
+using System; // Importa il namespace System
 using System.Net.Http; // Importa la classe HttpClient per effettuare richieste HTTP
 using System.Net.Http.Json; // Importa i metodi helper per la serializzazione JSON
 using System.Threading; // Importa la gestione dei token di cancellazione
 using System.Threading.Tasks; // Importa il supporto per le operazioni asincrone
+
+// Implementazione della comunicazione HTTP con i servizi remoti
 
 namespace InventoryService.ClientHttp
 {
@@ -16,10 +18,13 @@ namespace InventoryService.ClientHttp
         // Costruttore che riceve un'istanza di HttpClient tramite Dependency Injection
         public ClientHttp(HttpClient httpClient)
         {
-            _httpClient = httpClient;
+            _httpClient = httpClient; // Inizializza l'istanza di HttpClient
         }
-        
+        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         // Questi metodi dentro Inventory service non servono a niente, sono gia implementati in Order
+        // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
 
         // Metodo per recuperare un prodotto dal servizio remoto tramite il suo ID
         public async Task<ProductDto?> GetProductByIdAsync(int productId, CancellationToken cancellationToken = default)

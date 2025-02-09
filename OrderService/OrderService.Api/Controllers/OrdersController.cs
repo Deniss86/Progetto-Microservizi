@@ -26,22 +26,16 @@ namespace OrderService.Api.Controllers
         }
 
         // Endpoint HTTP POST per creare un nuovo ordine
-        [HttpPost(Name = "CreateOrder")]
+        [HttpPost(Name = "CreateOrder")] // Routing
 
         // Metodo associato a CreateOrderAsync per creare un nuovo ordine di Business
         // Comunica con l'inventario con IClientHttp.UpdateStockAsync
-        public async Task<IActionResult> CreateOrder([FromBody] Order order)
+        // Task indica che il metodo è asincrono e restituisce un IActionResult (HTTP Response)
+        public async Task<IActionResult> CreateOrder([FromBody] Order order) // Action
         {
             await _orderBusiness.CreateOrderAsync(order); // Chiamata alla logica di business per creare l'ordine
 
-            // Invia una richiesta HTTP al servizio di inventario per aggiornare lo stock
-            var stockUpdate = new ProductStockUpdateDto
-            {
-                ProductId = order.ProductId,
-                Quantity = order.Quantity
-            };
-            await _clientHttp.UpdateStockAsync(stockUpdate);
-            Console.WriteLine("Stock update request sent for ProductId: " + stockUpdate.ProductId);
+            Console.WriteLine("Stock update request sent for ProductId: " + order.Quantity);
             // Invia un messaggio Kafka per notificare la creazione dell'ordine 
             //await _kafkaProducer.ProduceAsync("order-updates", order);
 
@@ -50,8 +44,8 @@ namespace OrderService.Api.Controllers
         }
 
         // Endpoint HTTP GET per ottenere un ordine specifico tramite ID
-        [HttpGet("{id}", Name = "GetOrderById")]
-        public async Task<IActionResult> GetOrder(int id)
+        [HttpGet("{id}", Name = "GetOrderById")] // Routing
+        public async Task<IActionResult> GetOrder(int id) // Action
         {
             var order = await _orderBusiness.GetOrderAsync(id); // Recupera l'ordine tramite la logica di business
             if (order == null)
@@ -61,10 +55,10 @@ namespace OrderService.Api.Controllers
         }
 
         // Endpoint HTTP GET per ottenere tutti gli ordini
-        [HttpGet(Name = "GetAllOrders")]
+        [HttpGet(Name = "GetAllOrders")] // Routing
 
         // Metodo associato a GetAllOrdersAsync per ottenere tutti gli ordini di Business
-        public async Task<IActionResult> GetAllOrders()
+        public async Task<IActionResult> GetAllOrders() // Action
         {
             var orders = await _orderBusiness.GetAllOrdersAsync(); // Recupera tutti gli ordini
             return Ok(orders); // Restituisce HTTP 200 con la lista degli ordini
@@ -72,8 +66,8 @@ namespace OrderService.Api.Controllers
 
         // Endpoint HTTP DELETE per eliminare un ordine tramite ID
         // Metodo associato a DeleteOrderAsync per eliminare un ordine di Business
-        [HttpDelete("{id}", Name = "DeleteOrder")]
-        public async Task<IActionResult> DeleteOrder(int id)
+        [HttpDelete("{id}", Name = "DeleteOrder")] // Routing
+        public async Task<IActionResult> DeleteOrder(int id)  // Action
         {
             try
             {
@@ -87,8 +81,8 @@ namespace OrderService.Api.Controllers
         }
         // Metodoo per aggiornare un ordine gia esistente
         // Si appoggia a UpdateOrderAsync della Business
-       [HttpPut("{id}/status", Name = "UpdateOrderStatus")]
-        public async Task<IActionResult> UpdateOrderStatus(int id, [FromBody] string status)
+       [HttpPut("{id}/status", Name = "UpdateOrderStatus")] // Routing
+        public async Task<IActionResult> UpdateOrderStatus(int id, [FromBody] string status) // Action
         {
             try
             {

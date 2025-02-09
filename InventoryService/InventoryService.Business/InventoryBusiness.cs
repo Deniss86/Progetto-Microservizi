@@ -14,7 +14,7 @@ namespace InventoryService.Business
         // Costruttore con Dependency Injection del repository
         public InventoryBusiness(IProductRepository productRepository)
         {
-            _productRepository = productRepository;
+            _productRepository = productRepository; // Inizializza il repository
         }
 
         // Metodo per ottenere tutti i prodotti
@@ -71,32 +71,35 @@ namespace InventoryService.Business
         // Metodo per aggiornare la quantità di stock di un prodotto
         public async Task UpdateStockAsync(int productId, int quantity)
         {
+            // Recupera il prodotto dal repository tramite l'ID
             var product = await _productRepository.GetProductByIdAsync(productId);
-            
+            // Solleva un'eccezione se il prodotto non esiste
             if (product == null)
             {
                 throw new Exception($"Product with ID {productId} not found.");
             }
-
+            // Solleva un'eccezione se la quantità è minore di 0
             if (product.Stock < quantity)
             {
                 throw new Exception("Stock insufficiente per completare l'operazione.");
             }
-
+            // Aggiorna la quantità di stock del prodotto
             product.Stock -= quantity;
+            // Salva le modifiche nel database
             await _productRepository.SaveChangesAsync();
         }
 
         // Metodo per rimuovere un prodotto dall'inventario
         public async Task RemoveProductAsync(int id)
         {
+            // Recupera il prodotto dal repository tramite l'ID
             var product = await _productRepository.GetProductByIdAsync(id); // Ottiene il prodotto dal repository
-            
+            // Solleva un'eccezione se il prodotto non esiste
             if (product == null)
             {
                 throw new Exception($"Product with ID {id} not found."); // Solleva un'eccezione se il prodotto non esiste
             }
-
+            //  Rimuove il prodotto dal repository e assicura che il database venga aggiornato
             await _productRepository.RemoveAsync(id); // Rimuove il prodotto dal repository
             await _productRepository.SaveChangesAsync(); //  Assicura che il database venga aggiornato
         }

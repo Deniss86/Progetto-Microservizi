@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryService.ClientHttp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78a93bd210c9c45220de8dee82b9fcec92398b5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b646cea11a7588ec685f503d212f0e4d19dd53d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoryService.ClientHttp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoryService.ClientHttp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
